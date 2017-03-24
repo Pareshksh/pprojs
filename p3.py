@@ -38,6 +38,7 @@ def grades_variance(scores):
     variance = 0
     
     for score in scores:
+       
        variance += ((score - average)**2)/len(scores)
     
     return variance
